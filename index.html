@@ -1,27 +1,162 @@
+<!-- !لكي يظهر اضغطي على -->
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> my muqady</title>
     <link rel="icon" href="favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
 
-    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Montserrat:wght@100;700&family=Tajawal:wght@200;300;400&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+
 
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg  bg-light">
-    <a class="nav-link navbar-brand" href="index.html"> muqady </a>
-    <ul class="navbar-nav ms-auto">
-        
-        <li class="nav-item" ><a class="nav-link" href=""> اللحوم</a></li>
-        <li class="nav-item" ><a class="nav-link" href=""> الالبان</a></li>
-        <li class="nav-item" ><a class="nav-link" href=""> القائمة الرئيسية</a></li>
+    <!-- Title-Section -->
+    <section class="title-section" id="title">
+        <!-- Nav Bar -->
+        <div class="nav-div">
+            <nav class="navbar navbar-expand-lg  ">
+                <a class="nav-link navbar-brand" href="index.html"> muqady </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item"><a class="nav-link" href=""> اللحوم</a></li>
+                        <li class="nav-item"><a class="nav-link" href=""> الالبان</a></li>
+                        <li class="nav-item"><a class="nav-link" href=""> القائمة الرئيسية</a></li>
 
 
-    </ul>
+                    </ul>
+                </div>
+        </div>
+        </nav>
 
-</nav>
+        <!-- Title -->
+
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class=" carousel-item active intro">
+                    <img class="cart-imag" src="image/cart.jpeg" alt="cart image">
+
+                    <div class="intro-text">
+                        <h1> مرحبا بك في مقاضي </h1>
+                        <h4>هنا حيث يمكنك اختيار مقاضيك وترسل في طلبها</h4>
+                    </div>
+
+
+                </div>
+
+                <div class=" carousel-item  intro">
+                    <img class="cart-imag" src="image/introImg.jpeg" alt="cart image">
+
+                    <div class="intro-text">
+                        <h1> !لايقتصر على مقاضي المطبخ فقط </h1>
+                        <h4> هنا يمكنك ستجد ما ينقصك من مغاضي في العديد من المجلات مقاضي سباكة ،كهرباء ،حاجيات اطفال
+                            والعديد جدا </h4>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <!-- Main-Menu-Section -->
+    <section class="main-menu-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 main-img-text">
+                    <a href="#kitchen-Section">
+                        <img src="image/kitchen3.png" alt=" kitchen img">
+                        <h3> مقاضي المطبخ</h3>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 main-img-text">
+                    <a href="#Pharmacy-Section">
+                        <img src="image/pharmacy3.png" alt=" kitchen img">
+                        <h3> مقاضي الصيدليه</h3>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 main-img-text ">
+                    <a href="#Electricity-Tools-Section">
+                        <img src="image/electricity tools2.png" alt=" kitchen img">
+                        <h3> مقاضي الكهرباء</h3>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 main-img-text ">
+                    <a href="#Plumbing-Tools-Section">
+                        <img src="image/plumbing tools1.png" alt=" kitchen img">
+                        <h3> مقاضي السباكة</h3>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 main-img-text ">
+                    <a href="#Stationery-Section">
+                        <img src="image/Stationery1.png" alt=" kitchen img">
+                        <h3> مقاضي غرطاسية</h3>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- kitchen Section -->
+    <section id="kitchen-Section" class="colored-section">
+
+    </section>
+    <!-- Pharmacy Section -->
+    <section id="Pharmacy-Section">
+
+    </section>
+    <!-- Electricity Tools Section -->
+    <section id="Electricity-Tools-Section"class="colored-section">
+
+    </section>
+    <!-- Plumbing Tools Section -->
+    <section id="Plumbing-Tools-Section">
+
+    </section>
+    <!-- Stationery Section -->
+    <section id="Stationery-Section"class="colored-section">
+
+    </section>
 
 </body>

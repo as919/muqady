@@ -1,0 +1,98 @@
+
+
+
+
+h1{
+    font-family: 'Almarai', sans-serif;
+}
+h4{
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+.navbar{
+    padding: 1% 4.5%;
+}
+.title-section{
+    /* height: 500px; */
+    background-color: rgb(252,252,244); 
+    text-align: right;
+    
+    
+    
+}
+img{
+    width: 300px;
+}
+/* section */
+.colored-section{
+    background-color: #D3F2F2;
+}
+/* title section  */
+.cart-imag{
+width: 400px;
+float:left;
+margin-left: 7rem;
+}
+
+.intro-text {
+    padding: 7% 17% 0;
+    color: #4E898A;
+    
+    
+}
+
+.intro-text,h1{
+    padding-bottom: 1rem;
+}
+
+/* Main-Menu-Section */
+.main-img-text{
+    /* margin: 3%; */
+    margin: 2% auto;
+    position: relative;
+    text-align: center;
+}
+.main-menu-section img{
+    border-radius: 20%;
+    
+  
+}
+
+
+.main-menu-section h3{
+
+    position: absolute;
+    top: 50%;
+  left: 35%;
+    
+  transform: translate(-50%, -30%);
+
+}
+
+
+
+
+@media (max-width:709px) {
+    .intro{
+        text-align: center;
+    }
+    .intro-text{
+        clear: both;
+    } 
+    .cart-imag{
+       
+        margin:auto;
+        text-align: center;
+        
+    } 
+    .title-class{
+        height: auto;
+        
+        text-align: center;
+        
+        
+        
+    }
+}
+
